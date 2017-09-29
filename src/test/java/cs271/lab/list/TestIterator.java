@@ -16,6 +16,7 @@ public class TestIterator {
 
   private List<Integer> list;
   // See the Java List Interface documentation to understand what all the List methods do ...
+  //Larisa Kreismanis, Nathan Bullock
 
   @Before
   public void setUp() throws Exception {
