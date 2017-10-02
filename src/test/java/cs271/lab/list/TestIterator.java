@@ -77,7 +77,7 @@ public class TestIterator {
     while (i.hasNext()) {
       if (i.next() == 77) {
         i.remove(); // DONE what happens if you use list.remove(77)?
-        list.remove(77);
+        //list.remove(77);
       }
     }
     // DONE using assertEquals and Arrays.asList, express which values are left in the list
@@ -98,7 +98,7 @@ public class TestIterator {
     list.add(66);
     double sum = 0;
     int n = 0;
-    // TODO use an iterator and a while loop to compute the average (mean) of the values
+    // DONE use an iterator and a while loop to compute the average (mean) of the values
     // (defined as the sum of the items divided by the number of items)
     // testNonempty shows how to use an iterator; use i.hasNext() in the while loop condition
     final Iterator<Integer> i = list.iterator();
