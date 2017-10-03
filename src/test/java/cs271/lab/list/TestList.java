@@ -18,8 +18,8 @@ public class TestList {
   @Before
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
-    // TODO also try with a LinkedList - does it make any difference?
-    // list = new LinkedList<Integer>();
+    // DONE also try with a LinkedList - does it make any difference?
+    list = new LinkedList<Integer>();
   }
 
   @After
@@ -123,7 +123,16 @@ public class TestList {
     // TODO using containsAll and Arrays.asList (see above),
     // 1) assert that list contains all five different numbers added
     // 2) assert that list does not contain all of 11, 22, and 33
-    fail("Not yet implemented"); // remove this line when done
+    //fail("Not yet implemented"); // remove this line when done
+    containsAll(Arrays.asList(33, 77, 44, 77, 55, 77, 66));
+    assertEquals(33, list.get(0).intValue());
+    assertEquals(77, list.get(1).intValue());
+    assertEquals(44, list.get(2).intValue());
+    assertEquals(77, list.get(3).intValue());
+    assertEquals(55, list.get(4).intValue());
+    assertEquals(77, list.get(5).intValue());
+    assertEquals(66, list.get(6).intValue());
+    
   }
 
   @Test
