@@ -17,8 +17,7 @@
 
 ##TestPerformance.java Answers
 1. // which of the two lists performs better as the size increases?
-- My contributions to lab3 included creating the Answers.md file, creating the ArrayList and LinkedList Testing Performance Times spreadsheet, getting the lab to build and run, and I helped with recording testing times.
-
+- After testing, LinkedLists have proven to perform better as the size increases when adding or removing elements.  However, ArrayLists proved to be more efficient when specific elements were required to be manipulated.
 
 ## ArrayList and LinkedList Testing Performance Times
 https://docs.google.com/spreadsheets/d/1oHhvTz075MFZ3yOxvy3ygcAmBkmBO-q5bKRM73S5TAc/edit?usp=sharing
