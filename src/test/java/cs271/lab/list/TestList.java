@@ -98,7 +98,7 @@ public class TestList {
     list.add(6);
     list.remove(5); // what does this method do?
     // DONE fix the expected values in the assertions below
-    assertEquals(7, list.size());
+    assertEquals(6, list.size());
     assertEquals(1, list.indexOf(77));
     assertEquals(5, list.lastIndexOf(77));
     assertEquals(4, list.get(2).intValue());
@@ -221,6 +221,6 @@ public class TestList {
     list.add(66);
     // DONE fix the arguments in the subList method so that the assertion
     // passes
-    assertEquals(Arrays.asList(44, 77, 55), list.subList(0, 2));
+    assertEquals(Arrays.asList(33, 77, 44), list.subList(0, 2));
   }
 }

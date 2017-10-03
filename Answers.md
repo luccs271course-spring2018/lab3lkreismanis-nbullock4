@@ -15,7 +15,7 @@
 2. list.remove(Integer.valueOf(5)); // what does this one do?
 - The list.remove(Integer.valueOf(5)) will remove the object that is valued to 5.
 
-##TestPerformance.java Answers
+## TestPerformance.java Answers
 1. // which of the two lists performs better as the size increases?
 - After testing, LinkedLists have proven to perform better as the size increases when adding or removing elements.  However, ArrayLists proved to be more efficient when specific elements were required to be manipulated.
 
