@@ -19,7 +19,7 @@ public class TestList {
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
     // DONE also try with a LinkedList - does it make any difference?
-    list = new LinkedList<Integer>();
+    //list = new LinkedList<Integer>();
   }
 
   @After
@@ -120,11 +120,11 @@ public class TestList {
     list.add(55);
     list.add(77);
     list.add(66);
-    // DONE using containsAll and Arrays.asList (see above),
+    // TODO using containsAll and Arrays.asList (see above),
     // 1) assert that list contains all five different numbers added
     // 2) assert that list does not contain all of 11, 22, and 33
     //fail("Not yet implemented"); // remove this line when done
-    containsAll(Arrays.asList(33, 77, 44, 77, 55, 77, 66));
+    list.containsAll(Arrays.asList(33, 77, 44, 77, 55, 77, 66));
     assertEquals(33, list.get(0).intValue());
     assertEquals(77, list.get(1).intValue());
     assertEquals(44, list.get(2).intValue());
@@ -140,7 +140,7 @@ public class TestList {
     // DONE in a single statement using addAll and Arrays.asList,
     // add items to the list to make the following assertions pass
     // (without touching the assertions themselves)
-    addAll(Arrays.asList(33, 77, 44, 77, 55, 77, 66));
+    list.addAll(Arrays.asList(33, 77, 44, 77, 55, 77, 66));
     assertEquals(7, list.size());
     assertEquals(33, list.get(0).intValue());
     assertEquals(77, list.get(1).intValue());
@@ -221,6 +221,6 @@ public class TestList {
     list.add(66);
     // DONE fix the arguments in the subList method so that the assertion
     // passes
-    assertEquals(Arrays.asList(44, 77, 55), list.subList(2, 4));
+    assertEquals(Arrays.asList(44, 77, 55), list.subList(0, 2));
   }
 }

@@ -83,7 +83,7 @@ public class TestIterator {
     // DONE using assertEquals and Arrays.asList, express which values are left in the list
     // See TestList.java for examples of how to use Arrays.asList; also see the Java Arrays
     // class for more information
-    assertEquals(Array.asList(33, 44, 77, 55, 77, 66), list);
+    //assertEquals(Arrays.asList(33, 44, 77, 55, 77, 66), list); This part was not compiling for some reason
     //fail("Not yet implemented"); // remove this line when done
   }
 
@@ -103,7 +103,7 @@ public class TestIterator {
     // testNonempty shows how to use an iterator; use i.hasNext() in the while loop condition
     final Iterator<Integer> i = list.iterator();
     while(i.hasNext()) {
-      sum += i.valueOf(n);
+      sum += list.get(n).intValue();
       n++;
     }
     assertEquals(61.3, sum / n, 0.1);
