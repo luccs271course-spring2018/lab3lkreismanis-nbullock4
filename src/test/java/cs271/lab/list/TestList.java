@@ -52,9 +52,9 @@ public class TestList {
     // DONE write assertions using
     // list.contains(77)
     // that hold before and after adding 77 to the list
-    assertEquals(false, list.contains(77);
-    list.add(77)
-    assertEquals(true, list.contains(77);
+    assertEquals(false, list.contains(77));
+    list.add(77);
+    assertEquals(true, list.contains(77));
   }
 
   @Test
@@ -120,7 +120,7 @@ public class TestList {
     list.add(55);
     list.add(77);
     list.add(66);
-    // TODO using containsAll and Arrays.asList (see above),
+    // DONE using containsAll and Arrays.asList (see above),
     // 1) assert that list contains all five different numbers added
     // 2) assert that list does not contain all of 11, 22, and 33
     //fail("Not yet implemented"); // remove this line when done
