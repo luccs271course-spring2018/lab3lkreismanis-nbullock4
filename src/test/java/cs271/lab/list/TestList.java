@@ -100,7 +100,7 @@ public class TestList {
     // DONE fix the expected values in the assertions below
     assertEquals(6, list.size());
     assertEquals(1, list.indexOf(77));
-    assertEquals(5, list.lastIndexOf(77));
+    assertEquals(5, list.lastIndexOf("77"));
     assertEquals(4, list.get(2).intValue());
     assertEquals(77, list.get(3).intValue());
     list.remove(Integer.valueOf(5)); // what does this one do?
@@ -221,6 +221,6 @@ public class TestList {
     list.add(66);
     // DONE fix the arguments in the subList method so that the assertion
     // passes
-    assertEquals(Arrays.asList(33, 77, 44), list.subList(0, 2));
+    assertEquals(Arrays.asList(33, 77), list.subList(0, 2));
   }
 }
