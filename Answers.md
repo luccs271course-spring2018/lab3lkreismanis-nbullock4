@@ -1,5 +1,5 @@
-##Lab 3 Answers
-#by Larisa Kreismanis and Nathan Bullock
+## Lab 3 Answers
+# by Larisa Kreismanis and Nathan Bullock
 
 # TestIterator.java Answers
 1. //TODO also try with a LinkedList - does it make any difference?
@@ -15,22 +15,25 @@
 3. list.remove(Integer.valueOf(5)); // what does this one do?
 
 # ArrayList and LinkedList Performance Times
-- AddRemoveLinkedList
+AddRemoveLinkedList
 * SIZE 10:
 * SIZE 100:
 * SIZE 1000:
 * SIZE 10000:
-- AddRemoveArrayList
+
+AddRemoveArrayList
 * SIZE 10:
 * SIZE 100:
 * SIZE 1000:
 * SIZE 10000:
-- ListAccessLinkedList
+
+ListAccessLinkedList
 * SIZE 10:
 * SIZE 100:
 * SIZE 1000:
 * SIZE 10000:
-- ListAccessArrayList
+
+ListAccessArrayList
 * SIZE 10:
 * SIZE 100:
 * SIZE 1000:
