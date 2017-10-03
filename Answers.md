@@ -3,17 +3,21 @@
 
 ## TestIterator.java Answers
 1. //TODO also try with a LinkedList - does it make any difference?
-- 
-2. //TODO what happens if you use list.remove(77)?
+- The LinkedLists and ArrayLists performed at very similar speeds with very little difference.
 
+2. //TODO what happens if you use list.remove(77)?
+- The .remove() method removes the element of the index passed into the parenthesis of .remove().  The method .remove(77) would therefore try to remove the element at index 77, which would consequently produce an error.
 
 ## TestList.java Answers
 1. list.remove(5); // what does this method do?
+- The .remove(5) will remove the element at index 5.
 
 2. list.remove(Integer.valueOf(5)); // what does this one do?
+- The list.remove(Integer.valueOf(5)) will remove the object that is valued to 5.
 
 ##TestPerformance.java Answers
 1. // which of the two lists performs better as the size increases?
+- My contributions to lab3 included creating the Answers.md file, creating the ArrayList and LinkedList Testing Performance Times spreadsheet, getting the lab to build and run, and I helped with recording testing times.
 
 
 ## ArrayList and LinkedList Testing Performance Times
